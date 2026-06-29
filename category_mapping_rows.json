@@ -1,0 +1,1717 @@
+[
+  {
+    "input_value": "^Akce$",
+    "output_value": "Akcie",
+    "position": 1
+  },
+  {
+    "input_value": "^Bezlepkové Velikonoce$",
+    "output_value": "Bezlepková Veľká noc",
+    "position": 2
+  },
+  {
+    "input_value": "^Bezlepkové Velikonoce \\> Velikonoční pečení$",
+    "output_value": "Bezlepková Veľká noc > Veľkonočné pečenie",
+    "position": 3
+  },
+  {
+    "input_value": "^Bezlepkové potraviny$",
+    "output_value": "Bezlepkové potraviny",
+    "position": 4
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepková hotová jídla$",
+    "output_value": "Bezlepkové potraviny >> Bezlepkové hotové jedlá",
+    "position": 5
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepková hotová jídla \\> Bezlepkové polévky$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové hotové jedlá > Bezlepkové polievky",
+    "position": 6
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepková hotová jídla \\> Expres menu v akci \\> Expres menu v akci$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové hotové jedlá > Expres menu v akcii > Expres Menu v akcii",
+    "position": 7
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové cereálie a müsli$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové cereálie a müsli",
+    "position": 8
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové chipsy, křupky, tyčinky$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové chipsy, chrumky, tyčinky",
+    "position": 9
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové kaše a vločky \\> Bezlepkové kaše$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové kaše a vločky > Bezlepkové kaše",
+    "position": 10
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové kaše a vločky \\> Bezlepkové kaše \\> Jáhlová kaše$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové kaše a vločky > Bezlepkové kaše > Jáhlová kaše",
+    "position": 11
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové kaše a vločky \\> Bezlepkové kaše \\> Kaštanové kaše$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové kaše a vločky > Bezlepkové kaše > Gaštanové kaše",
+    "position": 12
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové kaše a vločky \\> Bezlepkové kaše \\> Kukuřičné kaše a polenta$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové kaše a vločky > Bezlepkové kaše > Kukuričné kaše a polenta",
+    "position": 13
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové kaše a vločky \\> Bezlepkové kaše \\> Ovesné kaše$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové kaše a vločky > Bezlepkové kaše > Ovsené kaše",
+    "position": 14
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové kaše a vločky \\> Bezlepkové kaše \\> Pohankové kaše$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové kaše a vločky > Bezlepkové kaše > Pohánkové kaše",
+    "position": 15
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové kaše a vločky \\> Bezlepkové kaše \\> Rýžová kaše$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové kaše a vločky > Bezlepkové kaše > Ryžová kaša",
+    "position": 16
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové kaše a vločky \\> Bezlepkové kaše \\> Čirokové kaše$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové kaše a vločky > Bezlepkové kaše > Cirokové kaše",
+    "position": 17
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové kaše a vločky \\> Bezlepkové vločky$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové kaše a vločky > Bezlepkové vločky",
+    "position": 18
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové kaše a vločky \\> Bezlepkové vločky \\> Bezlepkové ovesné vločky$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové kaše a vločky > Bezlepkové vločky > Bezlepkové ovesné vločky",
+    "position": 19
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové kaše a vločky \\> Bezlepkové vločky \\> Bramborové vločky$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové kaše a vločky > Bezlepkové vločky > Zemiakové vločky",
+    "position": 20
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové kaše a vločky \\> Bezlepkové vločky \\> Jáhlové vločky$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové kaše a vločky > Bezlepkové vločky > Jáhlové vločky",
+    "position": 21
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové kaše a vločky \\> Bezlepkové vločky \\> Pohankové vločky$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové kaše a vločky > Bezlepkové vločky > Pohánkové vločky",
+    "position": 22
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové kaše a vločky \\> Bezlepkové vločky \\> Rýžové vločky$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové kaše a vločky > Bezlepkové vločky > Ryžové vločky",
+    "position": 23
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové kaše a vločky \\> Bezlepkové vločky \\> Sójové vločky$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové kaše a vločky > Bezlepkové vločky > Sójové vločky",
+    "position": 24
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové mouky a směsi$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové múky a zmesi",
+    "position": 25
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové mouky a směsi \\> Banánové mouky$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové múky a zmesi > Banánové múky",
+    "position": 26
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové mouky a směsi \\> Bezlepková těsta$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové múky a zmesi > Bezlepkové cestá",
+    "position": 27
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové mouky a směsi \\> Bezlepkové obilné mouky$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové múky a zmesi > Bezlepkové obilné múky",
+    "position": 28
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové mouky a směsi \\> Bezlepkové obilné mouky \\> Bezlepkové ovesné mouky$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové múky a zmesi > Bezlepkové obilné múky > Bezlepkové ovesné múky",
+    "position": 29
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové mouky a směsi \\> Bezlepkové obilné mouky \\> Jáhlové mouky$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové múky a zmesi > Bezlepkové obilné múky > Pšenové múky",
+    "position": 30
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové mouky a směsi \\> Bezlepkové obilné mouky \\> Kukuřičné mouky$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové múky a zmesi > Bezlepkové obilné múky > Kukuřičné múky",
+    "position": 31
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové mouky a směsi \\> Bezlepkové obilné mouky \\> Pohankové mouky$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové múky a zmesi > Bezlepkové obilné múky > Pohankové múky",
+    "position": 32
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové mouky a směsi \\> Bezlepkové obilné mouky \\> Rýžové mouky$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové múky a zmesi > Bezlepkové obilné múky > Rýžové múky",
+    "position": 33
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové mouky a směsi \\> Bezlepkové obilné mouky \\> Teffové mouky$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové múky a zmesi > Bezlepkové obilné múky > Teffové múky",
+    "position": 34
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové mouky a směsi \\> Bezlepkové obilné mouky \\> Čirokové mouky$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové múky a zmesi > Bezlepkové obilné múky > Čirokové múky",
+    "position": 35
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové mouky a směsi \\> Bezlepkové směsi na pečení a vaření$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové múky a zmesi > Bezlepkové zmesi na pečenie a varenie",
+    "position": 36
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové mouky a směsi \\> Bezlepkové směsi na pečení a vaření \\> Chlebové směsi$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové múky a zmesi > Bezlepkové zmesi na pečenie a varenie > Chlebové zmesi",
+    "position": 37
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové mouky a směsi \\> Bezlepkové směsi na pečení a vaření \\> Sladké pečení$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové múky a zmesi > Sladké pečenie",
+    "position": 38
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové mouky a směsi \\> Bezlepkové směsi na pečení a vaření \\> Sladké pečení \\> Bezlepkové listové těsta$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové múky a zmesi > Sladké pečenie > Bezlepkové lístkové cestá",
+    "position": 39
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové mouky a směsi \\> Bezlepkové směsi na pečení a vaření \\> Sladké pečení \\> Směs na bezlepkové koláče$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové múky a zmesi > Sladké pečenie > Zmesi na bezlepkové koláče",
+    "position": 40
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové mouky a směsi \\> Bezlepkové směsi na pečení a vaření \\> Sladké pečení \\> Směsi a těsta na bezlepkové perníčky$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové múky a zmesi > Sladké pečenie > Zmesi a cestá na bezlepkové perníčky",
+    "position": 41
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové mouky a směsi \\> Bezlepkové směsi na pečení a vaření \\> Sladké pečení \\> Směsi na bezlepkovou bábovku$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové múky a zmesi > Sladké pečenie > Zmesi na bezlepkovú bábovku",
+    "position": 42
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové mouky a směsi \\> Bezlepkové směsi na pečení a vaření \\> Sladké pečení \\> Směsi na bezlepkové dorty$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové múky a zmesi > Sladké pečenie > Zmesi na bezlepkové dorty",
+    "position": 43
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové mouky a směsi \\> Bezlepkové směsi na pečení a vaření \\> Sladké pečení \\> Směsi na bezlepkové muffiny$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové múky a zmesi > Sladké pečenie > Zmesi na bezlepkové muffiny",
+    "position": 44
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové mouky a směsi \\> Bezlepkové směsi na pečení a vaření \\> Sladké pečení \\> Těsta na bezlepkové lívance$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové múky a zmesi > Sladké pečenie > Cesta na bezlepkové lievance",
+    "position": 45
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové mouky a směsi \\> Bezlepkové směsi na pečení a vaření \\> Sladké pečení \\> Těsta na bezlepkové palačinky$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové múky a zmesi > Sladké pečenie > Cesta na bezlepkové palacinky",
+    "position": 46
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové mouky a směsi \\> Bezlepkové směsi na pečení a vaření \\> Slané pečení$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové múky a zmesi > Slané pečenie",
+    "position": 47
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové mouky a směsi \\> Bezlepkové směsi na pečení a vaření \\> Slané pečení \\> Bezlepkové těsta na pizzu$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové múky a zmesi > Slané pečenie > Bezlepkové cestá na pizzu",
+    "position": 48
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové mouky a směsi \\> Bezlepkové směsi na pečení a vaření \\> Slané pečení \\> Těsta na bezlepkové knedlíky$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové múky a zmesi > Slané pečenie > Cestá na bezlepkové knedle",
+    "position": 49
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové mouky a směsi \\> Bezlepkové směsi na pečení a vaření \\> Univerzální směsi$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové múky a zmesi > Bezlepkové zmesi na pečenie a varenie > Univerzálne zmesi",
+    "position": 50
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové mouky a směsi \\> Luštěninové mouky$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové múky a zmesi > Strukovinové múky",
+    "position": 51
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové mouky a směsi \\> Luštěninové mouky \\> Cizrnové mouky$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové múky a zmesi > Strukovinové múky > Cícerové múky",
+    "position": 52
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové mouky a směsi \\> Luštěninové mouky \\> Fazolové mouky$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové múky a zmesi > Strukovinové múky > Fazuľové múky",
+    "position": 53
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové mouky a směsi \\> Luštěninové mouky \\> Hrachové mouky$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové múky a zmesi > Strukovinové múky > Hrachové múky",
+    "position": 54
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové mouky a směsi \\> Luštěninové mouky \\> Karobové mouky$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové múky a zmesi > Strukovinové múky > Karobové múky",
+    "position": 55
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové mouky a směsi \\> Luštěninové mouky \\> Mouky z červené čočky$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové múky a zmesi > Strukovinové múky > Múky z červenej šošovice",
+    "position": 56
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové mouky a směsi \\> Ořechové mouky$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové múky a zmesi > Ořechové múky",
+    "position": 57
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové mouky a směsi \\> Ořechové mouky \\> Kaštanové mouky$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové múky a zmesi > Ořechové múky > Gaštanové múky",
+    "position": 58
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové mouky a směsi \\> Ořechové mouky \\> Kešu mouky$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové múky a zmesi > Ořechové múky > Kešu múky",
+    "position": 59
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové mouky a směsi \\> Ořechové mouky \\> Kokosové mouky$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové múky a zmesi > Ořechové múky > Kokosové múky",
+    "position": 60
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové mouky a směsi \\> Ořechové mouky \\> Mandlové mouky$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové múky a zmesi > Ořechové múky > Mandľové múky",
+    "position": 61
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové mouky a směsi \\> Semínkové mouky \\> Dýňové mouky$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové múky a zmesi > Semínkové múky > Tekvicové múky",
+    "position": 62
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové mouky a směsi \\> Semínkové mouky \\> Lněné mouky$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové múky a zmesi > Semínkové múky > Ľanové múky",
+    "position": 63
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové pečivo$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové pečivo",
+    "position": 64
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové pečivo \\> Bezlepkové křehké plátky, suchary a knäckebrot$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové pečivo > Bezlepkové krehké plátky, sucháre a knäckebrot",
+    "position": 65
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové pečivo \\> Bezlepkové rohlíky a bagetky$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové pečivo > Bezlepkové rožky a bagetky",
+    "position": 66
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové pečivo \\> Bezlepkové tortilly$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové pečivo > Bezlepkové tortilly",
+    "position": 67
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové pečivo \\> Bezlepkové vafle$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové pečivo > Bezlepkové vafle",
+    "position": 68
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové pečivo \\> Bezlepkový chléb$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové pečivo > Bezlepkový chlieb",
+    "position": 69
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové pečivo \\> Bezlepkový toastový chléb$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové pečivo > Bezlepkový toastový chlieb",
+    "position": 70
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové sladkosti$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové sladkosti",
+    "position": 71
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové sladkosti \\> Bezlepkové brownies$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové sladkosti > Bezlepkové brownies",
+    "position": 72
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové sladkosti \\> Bezlepkové muffiny$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové sladkosti > Bezlepkové muffiny",
+    "position": 73
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové sladkosti \\> Bezlepkové piškoty$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové sladkosti > Bezlepkové piškóty",
+    "position": 74
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové sladkosti \\> Bezlepkové sušenky$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové sladkosti > Bezlepkové sušienky",
+    "position": 75
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové sladkosti \\> Bezlepkové tyčinky$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové sladkosti > Bezlepkové tyčinky",
+    "position": 76
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové sladkosti \\> Bonbony bez lepku$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové sladkosti > Cukríky bez lepku",
+    "position": 77
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové sladkosti \\> Marlenka bez lepku$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové sladkosti > Marlenka bez lepku",
+    "position": 78
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové sladkosti \\> Mug cake$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové sladkosti > Mug cake",
+    "position": 79
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové sladkosti \\> Ovocné plátky$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové sladkosti > Ovocné plátky",
+    "position": 80
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové strouhanky, obalovací směsi$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové strúhanky, obaľovacie zmesi",
+    "position": 81
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové těstoviny$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové cestoviny",
+    "position": 82
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové těstoviny \\> Bezlepkové lasagne$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové cestoviny > Bezlepkové lasagne",
+    "position": 83
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové těstoviny \\> Bezlepkové nudle$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové cestoviny > Bezlepkové rezance",
+    "position": 84
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové těstoviny \\> Bezlepkové špagety$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové cestoviny > Bezlepkové špagety",
+    "position": 85
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Extra výhodné balení$",
+    "output_value": "Bezlepkové potraviny > Extra výhodné balení",
+    "position": 86
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Ostatní bezlepkové produkty$",
+    "output_value": "Bezlepkové potraviny > Ostatné bezlepkové produkty",
+    "position": 87
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Ostatní bezlepkové produkty \\> Bezlepková vláknina$",
+    "output_value": "Bezlepkové potraviny > Ostatné bezlepkové produkty > Bezlepková vláknina",
+    "position": 88
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Ostatní bezlepkové produkty \\> Bezlepkové droždí$",
+    "output_value": "Bezlepkové potraviny > Ostatné bezlepkové produkty > Bezlepkové droždie",
+    "position": 89
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Ostatní bezlepkové produkty \\> Bezlepkové konzervy$",
+    "output_value": "Bezlepkové potraviny > Ostatné bezlepkové produkty > Bezlepkové konzervy",
+    "position": 90
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Ostatní bezlepkové produkty \\> Bezlepkové koření$",
+    "output_value": "Bezlepkové potraviny > Ostatné bezlepkové produkty > Bezlepkové korenie",
+    "position": 91
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Ostatní bezlepkové produkty \\> Bezlepkové kypřící prášky$",
+    "output_value": "Bezlepkové potraviny > Ostatné bezlepkové produkty > Bezlepkové kypriace prášky",
+    "position": 92
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Ostatní bezlepkové produkty \\> Bezlepkové nápoje$",
+    "output_value": "Bezlepkové potraviny > Ostatné bezlepkové produkty > Bezlepkové nápoje",
+    "position": 93
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Ostatní bezlepkové produkty \\> Bezlepkové omáčky a dochucovadla$",
+    "output_value": "Bezlepkové potraviny > Ostatné bezlepkové produkty > Bezlepkové omáčky a dochucovadlá",
+    "position": 94
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Ostatní bezlepkové produkty \\> Bezlepkové pomazánky$",
+    "output_value": "Bezlepkové potraviny > Ostatné bezlepkové produkty > Bezlepkové nátierky",
+    "position": 95
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Ostatní bezlepkové produkty \\> Bezlepkové pudinky$",
+    "output_value": "Bezlepkové potraviny > Ostatné bezlepkové produkty > Bezlepkové pudingy",
+    "position": 96
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Ostatní bezlepkové produkty \\> Bezlepkové zavařování$",
+    "output_value": "Bezlepkové potraviny > Ostatné bezlepkové produkty > Bezlepkové zaváranie",
+    "position": 97
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Ostatní bezlepkové produkty \\> Kukuřičný škrob$",
+    "output_value": "Bezlepkové potraviny > Ostatné bezlepkové produkty > Kukuričný škrob",
+    "position": 98
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Ostatní bezlepkové produkty \\> Ostatní$",
+    "output_value": "Bezlepkové potraviny > Ostatné bezlepkové produkty > Ostatné",
+    "position": 99
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Ostatní bezlepkové produkty \\> Přísady pro bezlepkové vaření a pečení$",
+    "output_value": "Bezlepkové potraviny > Ostatné bezlepkové produkty > Prísady pre bezlepkové varenie a pečenie",
+    "position": 100
+  },
+  {
+    "input_value": "^Doplňky$",
+    "output_value": "Doplnky do kuchyne a domácnosti",
+    "position": 101
+  },
+  {
+    "input_value": "^Doplňky \\> Bezlepkové cestovní kartičky$",
+    "output_value": "Doplnky do kuchyne a domácnosti > Bezlepkové cestovné kartičky",
+    "position": 102
+  },
+  {
+    "input_value": "^Doplňky \\> Chňapky$",
+    "output_value": "Doplnky do kuchyne a domácnosti > Chňapky",
+    "position": 103
+  },
+  {
+    "input_value": "^Doplňky \\> Plátěné tašky$",
+    "output_value": "Doplnky do kuchyne a domácnosti > Plátené tašky",
+    "position": 104
+  },
+  {
+    "input_value": "^Doplňky \\> Pohankové polštářky$",
+    "output_value": "Doplnky do kuchyne a domácnosti > Pohánkové vankúšiky",
+    "position": 105
+  },
+  {
+    "input_value": "^Dárky$",
+    "output_value": "Darčeky",
+    "position": 106
+  },
+  {
+    "input_value": "^Dárky \\> Dárkový textil$",
+    "output_value": "Darčeky > Darčekový textil",
+    "position": 107
+  },
+  {
+    "input_value": "^Dárky \\> Poukazy$",
+    "output_value": "Darčeky > Poukážky",
+    "position": 108
+  },
+  {
+    "input_value": "^Dárky \\> Vánoční dárky$",
+    "output_value": "Darčeky > Vianočné darčeky",
+    "position": 109
+  },
+  {
+    "input_value": "^Potraviny podle diety$",
+    "output_value": "Potraviny podľa diéty",
+    "position": 110
+  },
+  {
+    "input_value": "^Potraviny podle diety \\> Potraviny bez cukru pro diabetiky$",
+    "output_value": "Potraviny podľa diéty > Potraviny pre diabetikov",
+    "position": 111
+  },
+  {
+    "input_value": "^Potraviny podle diety \\> Potraviny bez cukru pro diabetiky \\> Piškoty bez cukru pro diabetiky$",
+    "output_value": "Potraviny podľa diéty > Potraviny pre diabetikov > Piškóty bez cukru",
+    "position": 112
+  },
+  {
+    "input_value": "^Potraviny podle diety \\> Potraviny bez cukru pro diabetiky \\> Sladkosti bez cukru vhodné pro diabetiky$",
+    "output_value": "Potraviny podľa diéty > Potraviny pre diabetikov > Sladkosti bez cukru",
+    "position": 113
+  },
+  {
+    "input_value": "^Potraviny podle diety \\> Potraviny bez cukru pro diabetiky \\> Sladkosti bez cukru vhodné pro diabetiky \\> Sušenky bez cukru vhodné pro diabetiky$",
+    "output_value": "Potraviny podľa diéty > Potraviny pre diabetikov > Sladkosti bez cukru > Sušienky bez cukru",
+    "position": 114
+  },
+  {
+    "input_value": "^Potraviny podle diety \\> Potraviny bez laktózy$",
+    "output_value": "Potraviny podľa diéty > Potraviny bez laktózy",
+    "position": 115
+  },
+  {
+    "input_value": "^Potraviny podle diety \\> Potraviny bez laktózy \\> Pečivo bez laktózy$",
+    "output_value": "Potraviny podľa diéty > Potraviny bez laktózy > Pečivo bez laktózy",
+    "position": 116
+  },
+  {
+    "input_value": "^Potraviny podle diety \\> Potraviny bez laktózy \\> Sladkosti bez laktózy$",
+    "output_value": "Potraviny podľa diéty > Potraviny bez laktózy > Sladkosti bez laktózy",
+    "position": 117
+  },
+  {
+    "input_value": "^Potraviny podle diety \\> Potraviny bez laktózy \\> Sušenky bez laktózy$",
+    "output_value": "Potraviny podľa diéty > Potraviny bez laktózy > Sušienky bez laktózy",
+    "position": 118
+  },
+  {
+    "input_value": "^Potraviny podle diety \\> Potraviny pro vegany a vegetariány$",
+    "output_value": "Potraviny podľa diéty > Potraviny pre vegánov a vegetariánov",
+    "position": 119
+  },
+  {
+    "input_value": "^Poukazy$",
+    "output_value": "Poukážky",
+    "position": 120
+  },
+  {
+    "input_value": "^Prázdniny bez lepku$",
+    "output_value": "Prázdniny bez lepku",
+    "position": 121
+  },
+  {
+    "input_value": "^Prázdniny bez lepku \\> Bezlepkové hotovky$",
+    "output_value": "Prázdniny bez lepku > Bezlepkové hotovky",
+    "position": 122
+  },
+  {
+    "input_value": "^Prázdniny bez lepku \\> Bezlepkové kaše$",
+    "output_value": "Prázdniny bez lepku > Bezlepkové kaše",
+    "position": 123
+  },
+  {
+    "input_value": "^Prázdniny bez lepku \\> Bezlepkové pečivo$",
+    "output_value": "Prázdniny bez lepku > Bezlepkové pečivo",
+    "position": 124
+  },
+  {
+    "input_value": "^Prázdniny bez lepku \\> Bezlepkové sladkosti$",
+    "output_value": "Prázdniny bez lepku > Bezlepkové sladkosti",
+    "position": 125
+  },
+  {
+    "input_value": "^Prázdniny bez lepku \\> Konzervované potraviny$",
+    "output_value": "Prázdniny bez lepku > Konzervované potraviny",
+    "position": 126
+  },
+  {
+    "input_value": "^Prázdniny bez lepku \\> Slané dobroty$",
+    "output_value": "Prázdniny bez lepku > Slané dobroty",
+    "position": 127
+  },
+  {
+    "input_value": "^Prázdniny bez lepku \\> Sušené ovoce$",
+    "output_value": "Prázdniny bez lepku > Sušené ovocie",
+    "position": 128
+  },
+  {
+    "input_value": "^Vánoce bez lepku$",
+    "output_value": "Vianoce bez lepku",
+    "position": 129
+  },
+  {
+    "input_value": "^Vánoce bez lepku \\> Adventní kalendáře bez lepku$",
+    "output_value": "Vianoce bez lepku > Adventné kalendáre bez lepku",
+    "position": 130
+  },
+  {
+    "input_value": "^Vánoce bez lepku \\> Bezlepkové sladkosti$",
+    "output_value": "Vianoce bez lepku > Bezlepkové sladkosti",
+    "position": 131
+  },
+  {
+    "input_value": "^Vánoce bez lepku \\> Oříšky$",
+    "output_value": "Vianoce bez lepku > Oriešky",
+    "position": 132
+  },
+  {
+    "input_value": "^Vánoce bez lepku \\> Vánoční pečení$",
+    "output_value": "Vianoce bez lepku > Vianočné pečenie",
+    "position": 133
+  },
+  {
+    "input_value": "^Vánoce bez lepku \\> Vánoční pečení \\> Bezlepkové mouky a směsi$",
+    "output_value": "Vianoce bez lepku > Vianočné pečenie > Bezlepkové múky a zmesi",
+    "position": 134
+  },
+  {
+    "input_value": "^Zdravé potraviny$",
+    "output_value": "Zdravé potraviny",
+    "position": 135
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Hotová jídla \\> Hlavní jídla$",
+    "output_value": "Zdravé potraviny > Hotové jedlá > Hlavné jedlá",
+    "position": 136
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Hotová jídla \\> Hotové polévky$",
+    "output_value": "Zdravé potraviny > Hotové jedlá > Hotové polievky",
+    "position": 137
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Hotová jídla \\> Hotové polévky \\> Hotový vývar$",
+    "output_value": "Zdravé potraviny > Hotové jedlá > Hotové polievky > Hotový vývar",
+    "position": 138
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Ořechy$",
+    "output_value": "Zdravé potraviny > Orechy",
+    "position": 139
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Ořechy \\> Kešu ořechy$",
+    "output_value": "Zdravé potraviny > Orechy > Kešu orechy",
+    "position": 140
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Ořechy \\> Kokos$",
+    "output_value": "Zdravé potraviny > Orechy > Kokos",
+    "position": 141
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Ořechy \\> Lískové oříšky$",
+    "output_value": "Zdravé potraviny > Orechy > Lieskové oriešky",
+    "position": 142
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Ořechy \\> Makadamové ořechy$",
+    "output_value": "Zdravé potraviny > Orechy > Makadamové orechy",
+    "position": 143
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Ořechy \\> Mandle$",
+    "output_value": "Zdravé potraviny > Orechy > Mandle",
+    "position": 144
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Ořechy \\> Ořechy v čokoládě a polevách$",
+    "output_value": "Zdravé potraviny > Orechy > Orechy v čokoláde a polevách",
+    "position": 145
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Ořechy \\> Para ořechy$",
+    "output_value": "Zdravé potraviny > Orechy > Para orechy",
+    "position": 146
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Ořechy \\> Pekanové ořechy$",
+    "output_value": "Zdravé potraviny > Orechy > Pekanové orechy",
+    "position": 147
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Ořechy \\> Piniové ořechy$",
+    "output_value": "Zdravé potraviny > Orechy > Píniové orechy",
+    "position": 148
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Ořechy \\> Pistácie$",
+    "output_value": "Zdravé potraviny > Orechy > Pistácie",
+    "position": 149
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Ořechy \\> Směs ořechů$",
+    "output_value": "Zdravé potraviny > Orechy > Zmes orechov",
+    "position": 150
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Ořechy \\> Tygří ořechy$",
+    "output_value": "Zdravé potraviny > Orechy > Tigrie orechy",
+    "position": 151
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Ořechy \\> Vlašské ořechy$",
+    "output_value": "Zdravé potraviny > Orechy > Vlašské orechy",
+    "position": 152
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> RAW potraviny$",
+    "output_value": "Zdravé potraviny > RAW potraviny",
+    "position": 153
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Semínka, zrna, plody$",
+    "output_value": "Zdravé potraviny > Semienka, zrná, plody",
+    "position": 154
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Semínka, zrna, plody \\> Semínka \\> Amarantová semínka$",
+    "output_value": "Zdravé potraviny > Semienka, zrná, plody > Semienka > Amarantové semienka",
+    "position": 155
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Semínka, zrna, plody \\> Semínka \\> Chia semínka$",
+    "output_value": "Zdravé potraviny > Semienka, zrná, plody > Semienka > Chia semienka",
+    "position": 156
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Semínka, zrna, plody \\> Semínka \\> Dýňová semínka$",
+    "output_value": "Zdravé potraviny > Semienka, zrná, plody > Semienka > Tekvicové semienka",
+    "position": 157
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Semínka, zrna, plody \\> Semínka \\> Konopná semínka$",
+    "output_value": "Zdravé potraviny > Semienka, zrná, plody > Semienka > Konopné semienka",
+    "position": 158
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Semínka, zrna, plody \\> Semínka \\> Lněná semínka$",
+    "output_value": "Zdravé potraviny > Semienka, zrná, plody > Semienka > Ľanové semienka",
+    "position": 159
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Semínka, zrna, plody \\> Semínka \\> Na klíčení$",
+    "output_value": "Zdravé potraviny > Semienka, zrná, plody > Semienka > Na klíčenie",
+    "position": 160
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Semínka, zrna, plody \\> Semínka \\> Slunečnicová semínka$",
+    "output_value": "Zdravé potraviny > Semienka, zrná, plody > Semienka > Slnečnicové semienka",
+    "position": 161
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Superpotraviny$",
+    "output_value": "Zdravé potraviny > Superpotraviny",
+    "position": 162
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Superpotraviny \\> Matcha$",
+    "output_value": "Zdravé potraviny > Superpotraviny > Matcha",
+    "position": 163
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Superpotraviny \\> Psyllium$",
+    "output_value": "Zdravé potraviny > Superpotraviny > Psyllium",
+    "position": 164
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Sušené ovoce$",
+    "output_value": "Zdravé potraviny > Sušené ovocie",
+    "position": 165
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Sušené ovoce \\> Ovoce sušené mrazem - lyofilizované ovoce$",
+    "output_value": "Zdravé potraviny > Sušené ovocie > Ovocie sušené mrazom - lyofilizované ovocie",
+    "position": 166
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Sušené ovoce \\> Sušená jablka a hrušky$",
+    "output_value": "Zdravé potraviny > Sušené ovocie > Sušené jablká a hrušky",
+    "position": 167
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Sušené ovoce \\> Sušená moruše$",
+    "output_value": "Zdravé potraviny > Sušené ovocie > Sušené moruše",
+    "position": 168
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Sušené ovoce \\> Sušené banány$",
+    "output_value": "Zdravé potraviny > Sušené ovocie > Sušené banány",
+    "position": 169
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Sušené ovoce \\> Sušené brusinky a borůvky$",
+    "output_value": "Zdravé potraviny > Sušené ovocie > Sušené brusnice a čučoriedky",
+    "position": 170
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Sušené ovoce \\> Sušené datle$",
+    "output_value": "Zdravé potraviny > Sušené ovocie > Sušené datle",
+    "position": 171
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Sušené ovoce \\> Sušené exotické ovoce$",
+    "output_value": "Zdravé potraviny > Sušené ovocie > Sušené exotické ovocie",
+    "position": 172
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Sušené ovoce \\> Sušené fíky$",
+    "output_value": "Zdravé potraviny > Sušené ovocie > Sušené figy",
+    "position": 173
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Sušené ovoce \\> Sušené meruňky$",
+    "output_value": "Zdravé potraviny > Sušené ovocie > Sušené marhule",
+    "position": 174
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Sušené ovoce \\> Sušené rozinky$",
+    "output_value": "Zdravé potraviny > Sušené ovocie > Sušené hrozienka",
+    "position": 175
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Sušené ovoce \\> Sušené třešně a višně$",
+    "output_value": "Zdravé potraviny > Sušené ovocie > Sušené čerešne a višne",
+    "position": 176
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Sušené ovoce \\> Sušené švestky$",
+    "output_value": "Zdravé potraviny > Sušené ovocie > Sušené slivky",
+    "position": 177
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie",
+    "position": 178
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Džemy, marmelády, povidla$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Džemy, marmelády, lekváre",
+    "position": 179
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Džemy, marmelády, povidla \\> Marmelády$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Džemy, marmelády, lekváre > Marmelády",
+    "position": 180
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Džemy, marmelády, povidla \\> Povidla$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Džemy, marmelády, lekváre > Lekvár",
+    "position": 181
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Džemy, marmelády, povidla \\> Produkty pro zavařování$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Džemy, marmelády, lekváre > Produkty na zaváranie",
+    "position": 182
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Konzervované potraviny$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Konzervované potraviny",
+    "position": 183
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Konzervované potraviny \\> Pomazánky$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Konzervované potraviny > Nátierky",
+    "position": 184
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Konzervované potraviny \\> Rybí konzervy \\> Losos$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Konzervované potraviny > Rybacie konzervy > Losos",
+    "position": 185
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Konzervované potraviny \\> Rybí konzervy \\> Ostatní ryby$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Konzervované potraviny > Rybacie konzervy > Ostatné ryby",
+    "position": 186
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Konzervované potraviny \\> Rybí konzervy \\> Tuňák$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Konzervované potraviny > Rybacie konzervy > Tuniak",
+    "position": 187
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Konzervované potraviny \\> Zelenina$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Konzervované potraviny > Zelenina",
+    "position": 188
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Konzervované potraviny \\> Zelenina \\> Sušená rajčata$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Konzervované potraviny > Zelenina > Sušené paradajky",
+    "position": 189
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Koření, ochucovadla a bujóny$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Korenie, ochucovadlá a bujóny",
+    "position": 190
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Koření, ochucovadla a bujóny \\> Bujóny$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Korenie, ochucovadlá a bujóny > Bujóny",
+    "position": 191
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Koření, ochucovadla a bujóny \\> Chilli$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Korenie, ochucovadlá a bujóny > Chilli",
+    "position": 192
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Koření, ochucovadla a bujóny \\> Koření$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Korenie, ochucovadlá a bujóny > Korenie",
+    "position": 193
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Koření, ochucovadla a bujóny \\> Koření \\> Jednodruhové koření$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Korenie, ochucovadlá a bujóny > Korenie > Jednodruhové korenie",
+    "position": 194
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Koření, ochucovadla a bujóny \\> Koření \\> Jednodruhové koření \\> Chilli koření$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Korenie, ochucovadlá a bujóny > Korenie > Jednodruhové korenie > Chilli korenie",
+    "position": 195
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Koření, ochucovadla a bujóny \\> Koření \\> Jednodruhové koření \\> Pepř$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Korenie, ochucovadlá a bujóny > Korenie > Jednodruhové korenie > Čierne korenie",
+    "position": 196
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Koření, ochucovadla a bujóny \\> Koření \\> Směsi koření$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Korenie, ochucovadlá a bujóny > Korenie > Zmesi korenia",
+    "position": 197
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Koření, ochucovadla a bujóny \\> Koření \\> Směsi koření \\> Gulášové koření$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Korenie, ochucovadlá a bujóny > Korenie > Zmesi korenia > Gulášové korenie",
+    "position": 198
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Koření, ochucovadla a bujóny \\> Koření \\> Směsi koření \\> Indické koření$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Korenie, ochucovadlá a bujóny > Korenie > Zmesi korenia > Indické korenie",
+    "position": 199
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Koření, ochucovadla a bujóny \\> Sójové omáčky$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Korenie, ochucovadlá a bujóny > Sójové omáčky",
+    "position": 200
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Luštěniny$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Strukoviny",
+    "position": 201
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Luštěniny \\> Cizrna$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Strukoviny > Cícer",
+    "position": 202
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Luštěniny \\> Fazole$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Strukoviny > Fazuľa",
+    "position": 203
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Luštěniny \\> Hrách$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Strukoviny > Hrach",
+    "position": 204
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Luštěniny \\> Kuskus$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Strukoviny > Kuskus",
+    "position": 205
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Luštěniny \\> Sója$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Strukoviny > Sója",
+    "position": 206
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Luštěniny \\> Čočka$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Strukoviny > Šošovica",
+    "position": 207
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Mouky$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Múky",
+    "position": 208
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Mouky \\> Celozrnné mouky$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Múky > Celozrnné múky",
+    "position": 209
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Mouky \\> Ječné mouky$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Múky > Jačmenné múky",
+    "position": 210
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Mouky \\> Mandlové mouky$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Múky > Mandľové múky",
+    "position": 211
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Mouky \\> Pohankové mouky$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Múky > Pohánkové múky",
+    "position": 212
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Mouky \\> Pšeničné mouky$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Múky > Pšeničné múky",
+    "position": 213
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Mouky \\> Špaldové mouky$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Múky > Špaldové múky",
+    "position": 214
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Mouky \\> Žitné mouky$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Múky > Ražné múky",
+    "position": 215
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Másla \\> Ghí másla$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Maslá > Ghí maslá",
+    "position": 216
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Obiloviny$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Obilniny",
+    "position": 217
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Obiloviny \\> Bulgur$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Obilniny > Bulgur",
+    "position": 218
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Obiloviny \\> Jáhly$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Obilniny > Pšeno",
+    "position": 219
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Obiloviny \\> Kroupy$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Obilniny > Krúpy",
+    "position": 220
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Obiloviny \\> Kukuřice$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Obilniny > Krúpy > Kukurica",
+    "position": 221
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Obiloviny \\> Kuskus$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Obilniny > Kuskus",
+    "position": 222
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Obiloviny \\> Otruby$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Obilniny > Otruby",
+    "position": 223
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Obiloviny \\> Oves$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Obilniny > Ovos",
+    "position": 224
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Obiloviny \\> Pohanka$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Obilniny > Pohánka",
+    "position": 225
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Obiloviny \\> Quinoa$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Obilniny > Quinoa",
+    "position": 226
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Obiloviny \\> Vločky$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Obilniny > Vločky",
+    "position": 227
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Obiloviny \\> Špalda$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Obilniny > Špalda",
+    "position": 228
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Obiloviny \\> Žito$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Obilniny > Raž",
+    "position": 229
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Oleje \\> Kokosové oleje$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Oleje > Kokosové oleje",
+    "position": 230
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Oleje \\> Olivové oleje$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Oleje > Olivové oleje",
+    "position": 231
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Omáčky a protlaky \\> Omáčky$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Omáčky a pretlaky > Omáčky",
+    "position": 232
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Omáčky a protlaky \\> Omáčky \\> Hořčice$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Omáčky a pretlaky > Horčica",
+    "position": 233
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Omáčky a protlaky \\> Omáčky \\> Kečupy$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Omáčky a pretlaky > Kečupy",
+    "position": 234
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Omáčky a protlaky \\> Omáčky \\> Rajčatové omáčky$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Omáčky a pretlaky > Omáčky > Paradajkové omáčky",
+    "position": 235
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Omáčky a protlaky \\> Rajčatové protlaky$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Omáčky a pretlaky > Paradajkové pretlaky",
+    "position": 236
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Polotovary$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Polotovary",
+    "position": 237
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Polotovary \\> Vege burger$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Polotovary > Vege burger",
+    "position": 238
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Přísady pro pečení a vaření$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Prísady na pečenie a varenie",
+    "position": 239
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Přísady pro pečení a vaření \\> Droždí$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Prísady na pečenie a varenie > Droždie",
+    "position": 240
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Přísady pro pečení a vaření \\> Kypřící prášky$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Prísady na pečenie a varenie > Kypriace prášky",
+    "position": 241
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Přísady pro pečení a vaření \\> Rostlinné smetany na vaření$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Prísady na pečenie a varenie > Rastlinné smotany na varenie",
+    "position": 242
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Rýže$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Ryža",
+    "position": 243
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Rýže \\> Arborio rýže$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Ryža > Arborio ryža",
+    "position": 244
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Rýže \\> Basmati rýže$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Ryža > Basmati ryža",
+    "position": 245
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Rýže \\> Dlouhozrnná rýže$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Ryža > Dlhozrnná ryža",
+    "position": 246
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Rýže \\> Jasmínová rýže$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Ryža > Jazmínová ryža",
+    "position": 247
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Rýže \\> Kulatozrnná rýže$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Ryža > Guľatozrnná ryža",
+    "position": 248
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Rýže \\> Černá rýže$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Ryža > Čierna ryža",
+    "position": 249
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Rýže \\> Červená rýže$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Ryža > Červená ryža",
+    "position": 250
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Sladidla, sirupy a med$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Prísady na pečenie a varenie > Sladidlá, sirupy a med",
+    "position": 251
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Sladidla, sirupy a med \\> Cukr$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Prísady na pečenie a varenie > Sladidlá, sirupy a med > Cukor",
+    "position": 252
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Sladidla, sirupy a med \\> Cukr \\> Třtinový cukr$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Prísady na pečenie a varenie > Sladidlá, sirupy a med > Cukor > Trstinový cukor",
+    "position": 253
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Sladidla, sirupy a med \\> Cukr \\> Vanilkový cukr$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Prísady na pečenie a varenie > Sladidlá, sirupy a med > Cukor > Vanilkový cukor",
+    "position": 254
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Sladidla, sirupy a med \\> Cukr \\> Želírovací cukr$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Prísady na pečenie a varenie > Sladidlá, sirupy a med > Cukor > Želírovací cukor",
+    "position": 255
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Sladidla, sirupy a med \\> Kakao$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Prísady na pečenie a varenie > Sladidlá, sirupy a med > Kakao",
+    "position": 256
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Sladidla, sirupy a med \\> Med$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Prísady na pečenie a varenie > Sladidlá, sirupy a med > Med",
+    "position": 257
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Sladidla, sirupy a med \\> Melasy$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Prísady na pečenie a varenie > Sladidlá, sirupy a med > Melasy",
+    "position": 258
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Sladidla, sirupy a med \\> Sirupy$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Prísady na pečenie a varenie > Sladidlá, sirupy a med > Sirupy",
+    "position": 259
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Sůl \\> Bylinné soli$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Soľ > Bylinné soli",
+    "position": 260
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Sůl \\> Himalájská sůl$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Soľ > Himalájska soľ",
+    "position": 261
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Těstoviny \\> Bezlepkové těstoviny$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Cestoviny > Bezlepkové cestoviny",
+    "position": 262
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Těstoviny \\> Bezvaječné těstoviny$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Cestoviny > Bezvaječné cestoviny",
+    "position": 263
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Těstoviny \\> Gnocchi a tortelloni$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Cestoviny > Gnocchi a tortelloni",
+    "position": 264
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Těstoviny \\> Kukuřičné těstoviny$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Cestoviny > Kukuričné cestoviny",
+    "position": 265
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Těstoviny \\> Luštěninové těstoviny \\> Cizrnové těstoviny$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Cestoviny > Strukovinové cestoviny > Cícerové cestoviny",
+    "position": 266
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Těstoviny \\> Luštěninové těstoviny \\> Čočkové těstoviny$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Cestoviny > Strukovinové cestoviny > Šošovicové cestoviny",
+    "position": 267
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Těstoviny \\> Pohankové těstoviny$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Cestoviny > Pohánkové cestoviny",
+    "position": 268
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Těstoviny \\> Proteinové těstoviny$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Cestoviny > Proteínové cestoviny",
+    "position": 269
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Těstoviny \\> Rýžové těstoviny$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Cestoviny > Ryžové cestoviny",
+    "position": 270
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Zdravé mlsání$",
+    "output_value": "Zdravé potraviny > Zdravé maškrtenie",
+    "position": 271
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Zdravé mlsání \\> Bonbony$",
+    "output_value": "Zdravé potraviny > Zdravé maškrtenie > Cukríky",
+    "position": 272
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Zdravé mlsání \\> Ořechová másla \\> Arašídová másla$",
+    "output_value": "Zdravé potraviny > Zdravé maškrtenie > Orechové maslá > Arašidové maslá",
+    "position": 273
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Zdravé mlsání \\> Ořechová másla \\> Kešu másla$",
+    "output_value": "Zdravé potraviny > Zdravé maškrtenie > Orechové maslá > Kešu maslá",
+    "position": 274
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Zdravé mlsání \\> Ořechová másla \\> Lískooříšková másla$",
+    "output_value": "Zdravé potraviny > Zdravé maškrtenie > Orechové maslá > Lieskoorieškové maslá",
+    "position": 275
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Zdravé mlsání \\> Ořechová másla \\> Mandlová másla$",
+    "output_value": "Zdravé potraviny > Zdravé maškrtenie > Orechové maslá > Mandľové maslá",
+    "position": 276
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Zdravé mlsání \\> Ořechová másla \\> Čokoládová másla$",
+    "output_value": "Zdravé potraviny > Zdravé maškrtenie > Orechové maslá > Čokoládové másla",
+    "position": 277
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Zdravé mlsání \\> Slané mlsání a chipsy$",
+    "output_value": "Zdravé potraviny > Zdravé maškrtenie > Slané maškrtenie a chipsy",
+    "position": 278
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Zdravé mlsání \\> Slané mlsání a chipsy \\> Chipsy$",
+    "output_value": "Zdravé potraviny > Zdravé maškrtenie > Slané maškrtenie a chipsy",
+    "position": 279
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Zdravé mlsání \\> Slané mlsání a chipsy \\> Chipsy \\> Amarantové chipsy$",
+    "output_value": "Zdravé potraviny > Zdravé maškrtenie > Slané maškrtenie a chipsy > Chipsy > Amarantové chipsy",
+    "position": 280
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Zdravé mlsání \\> Slané mlsání a chipsy \\> Chipsy \\> Kokosové chipsy$",
+    "output_value": "Zdravé potraviny > Zdravé maškrtenie > Slané maškrtenie a chipsy > Chipsy > Kokosové chipsy",
+    "position": 281
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Zdravé mlsání \\> Slané mlsání a chipsy \\> Chipsy \\> Rýžové chipsy$",
+    "output_value": "Zdravé potraviny > Zdravé maškrtenie > Slané maškrtenie a chipsy > Chipsy > Ryžové chipsy",
+    "position": 282
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Zdravé mlsání \\> Slané mlsání a chipsy \\> Chipsy \\> Sýrové chipsy$",
+    "output_value": "Zdravé potraviny > Zdravé maškrtenie > Slané maškrtenie a chipsy > Chipsy > Syrové chipsy",
+    "position": 283
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Zdravé mlsání \\> Slané mlsání a chipsy \\> Chipsy \\> Tortilla chipsy$",
+    "output_value": "Zdravé potraviny > Zdravé maškrtenie > Slané maškrtenie a chipsy > Chipsy > Tortilla chipsy",
+    "position": 284
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Zdravé mlsání \\> Slané mlsání a chipsy \\> Chipsy \\> Zeleninové chipsy$",
+    "output_value": "Zdravé potraviny > Zdravé maškrtenie > Slané maškrtenie a chipsy > Chipsy > Zeleninové chipsy",
+    "position": 285
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Zdravé mlsání \\> Slané mlsání a chipsy \\> Chipsy \\> Čočkové chipsy$",
+    "output_value": "Zdravé potraviny > Zdravé maškrtenie > Slané maškrtenie a chipsy > Chipsy > Šošovkové chipsy",
+    "position": 286
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Zdravé mlsání \\> Slané mlsání a chipsy \\> Krekry$",
+    "output_value": "Zdravé potraviny > Zdravé maškrtenie > Slané maškrtenie a chipsy > Krekry",
+    "position": 287
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Zdravé mlsání \\> Slané mlsání a chipsy \\> Kukuřičné křupky$",
+    "output_value": "Zdravé potraviny > Zdravé maškrtenie > Slané maškrtenie a chipsy > Kukuričné ​​chrumky",
+    "position": 288
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Zdravé mlsání \\> Slané mlsání a chipsy \\> Kukuřičné křupky \\> Křupky pro děti$",
+    "output_value": "Zdravé potraviny > Zdravé maškrtenie > Slané maškrtenie a chipsy > Kukuričné ​​chrumky > Chrumky pre deti",
+    "position": 289
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Zdravé mlsání \\> Slané mlsání a chipsy \\> Rýžové chlebíčky$",
+    "output_value": "Zdravé potraviny > Zdravé maškrtenie > Slané maškrtenie a chipsy > Ryžové chlebíčky",
+    "position": 290
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Zdravé mlsání \\> Sušenky$",
+    "output_value": "Zdravé potraviny > Zdravé maškrtenie > Sušienky",
+    "position": 291
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Zdravé mlsání \\> Tyčinky$",
+    "output_value": "Zdravé potraviny > Zdravé maškrtenie > Tyčinky",
+    "position": 292
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Zdravé mlsání \\> Tyčinky \\> Flapjacky$",
+    "output_value": "Zdravé potraviny > Zdravé maškrtenie > Tyčinky > Flapjacky",
+    "position": 293
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Zdravé mlsání \\> Tyčinky \\> Ořechové a müsli tyčinky$",
+    "output_value": "Zdravé potraviny > Zdravé maškrtenie > Tyčinky > Orechové a müsli tyčinky",
+    "position": 294
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Zdravé mlsání \\> Tyčinky \\> Proteinové tyčinky$",
+    "output_value": "Zdravé potraviny > Zdravé maškrtenie > Tyčinky > Proteínové tyčinky",
+    "position": 295
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Zdravé mlsání \\> Tyčinky \\> RAW tyčinky$",
+    "output_value": "Zdravé potraviny > Zdravé maškrtenie > Tyčinky > RAW tyčinky",
+    "position": 296
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Zdravé mlsání \\> Tyčinky \\> Čokoládové tyčinky$",
+    "output_value": "Zdravé potraviny > Zdravé maškrtenie > Tyčinky > Čokoládové tyčinky",
+    "position": 297
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Zdravé mlsání \\> Čokoláda$",
+    "output_value": "Zdravé potraviny > Zdravé maškrtenie > Čokoláda",
+    "position": 298
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Zdravé mlsání \\> Čokoláda \\> Tabulková čokoláda$",
+    "output_value": "Zdravé potraviny > Zdravé maškrtenie > Čokoláda > Tabuľková čokoláda",
+    "position": 299
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Zdravé mlsání \\> Čokoláda \\> Čokoládové pecičky$",
+    "output_value": "Zdravé potraviny > Zdravé maškrtenie > Čokoláda > Čokoládové kôstky",
+    "position": 300
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Zdravé snídaně$",
+    "output_value": "Zdravé potraviny > Zdravé raňajky",
+    "position": 301
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Zdravé snídaně \\> Cereálie a lupínky$",
+    "output_value": "Zdravé potraviny > Zdravé raňajky > Cereálie a lupienky",
+    "position": 302
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Zdravé snídaně \\> Cereálie a lupínky \\> Kukuřičné lupínky$",
+    "output_value": "Zdravé potraviny > Zdravé raňajky > Cereálie a lupienky > Kukuričné lupienky",
+    "position": 303
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Zdravé snídaně \\> Kaše$",
+    "output_value": "Zdravé potraviny > Zdravé raňajky > Kaše",
+    "position": 304
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Zdravé snídaně \\> Müsli a granola$",
+    "output_value": "Zdravé potraviny > Zdravé raňajky > Müsli a granola",
+    "position": 305
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Zdravé snídaně \\> Vločky$",
+    "output_value": "Zdravé potraviny > Zdravé raňajky > Vločky",
+    "position": 306
+  },
+  {
+    "input_value": "^Čaje a nápoje \\> Káva$",
+    "output_value": "Čaje a nápoje > Káva",
+    "position": 307
+  },
+  {
+    "input_value": "^Čaje a nápoje \\> Nápoje$",
+    "output_value": "Čaje a nápoje > Nápoje",
+    "position": 308
+  },
+  {
+    "input_value": "^Čaje a nápoje \\> Nápoje \\> Kombuchy$",
+    "output_value": "Čaje a nápoje > Nápoje > Kombuchy",
+    "position": 309
+  },
+  {
+    "input_value": "^Čaje a nápoje \\> Nápoje \\> Limonády$",
+    "output_value": "Čaje a nápoje > Nápoje > Limonády",
+    "position": 310
+  },
+  {
+    "input_value": "^Čaje a nápoje \\> Nápoje \\> Mošty a pyré$",
+    "output_value": "Čaje a nápoje > Nápoje > Mošty a pyré",
+    "position": 311
+  },
+  {
+    "input_value": "^Čaje a nápoje \\> Nápoje \\> Nápoje v prášku$",
+    "output_value": "Čaje a nápoje > Nápoje > Nápoje v prášku",
+    "position": 312
+  },
+  {
+    "input_value": "^Čaje a nápoje \\> Nápoje \\> Rostlinné nápoje$",
+    "output_value": "Čaje a nápoje > Nápoje > Rastlinné nápoje",
+    "position": 313
+  },
+  {
+    "input_value": "^Čaje a nápoje \\> Nápoje \\> Rostlinné nápoje \\> Kokosové nápoje$",
+    "output_value": "Čaje a nápoje > Nápoje > Rastlinné nápoje > Kokosové nápoje",
+    "position": 314
+  },
+  {
+    "input_value": "^Čaje a nápoje \\> Nápoje \\> Rostlinné nápoje \\> Mandlové nápoje$",
+    "output_value": "Čaje a nápoje > Nápoje > Rastlinné nápoje > Mandľové nápoje",
+    "position": 315
+  },
+  {
+    "input_value": "^Čaje a nápoje \\> Nápoje \\> Rostlinné nápoje \\> Ovesné nápoje$",
+    "output_value": "Čaje a nápoje > Nápoje > Rastlinné nápoje > Ovsené nápoje",
+    "position": 316
+  },
+  {
+    "input_value": "^Čaje a nápoje \\> Nápoje \\> Rostlinné nápoje \\> Rýžové nápoje$",
+    "output_value": "Čaje a nápoje > Nápoje > Rastlinné nápoje > Ryžové nápoje",
+    "position": 317
+  },
+  {
+    "input_value": "^Čaje a nápoje \\> Nápoje \\> Rostlinné nápoje \\> Sójové nápoje$",
+    "output_value": "Čaje a nápoje > Nápoje > Rastlinné nápoje > Sójové nápoje",
+    "position": 318
+  },
+  {
+    "input_value": "^Čaje a nápoje \\> Nápoje \\> Sirupy$",
+    "output_value": "Čaje a nápoje > Nápoje > Sirupy",
+    "position": 319
+  },
+  {
+    "input_value": "^Čaje a nápoje \\> Nápoje \\> Šťávy$",
+    "output_value": "Čaje a nápoje > Nápoje > Šťavy",
+    "position": 320
+  },
+  {
+    "input_value": "^Čaje a nápoje \\> Čaje$",
+    "output_value": "Čaje a nápoje > Čaje",
+    "position": 321
+  },
+  {
+    "input_value": "^Čaje a nápoje \\> Čaje \\> Bylinné čaje$",
+    "output_value": "Čaje a nápoje > Čaje > Bylinné čaje",
+    "position": 322
+  },
+  {
+    "input_value": "^Čaje a nápoje \\> Čaje \\> Bylinné čaje \\> Bylinné čaje jednodruhové$",
+    "output_value": "Čaje a nápoje > Čaje > Bylinné čaje > Bylinné čaje jednodruhové",
+    "position": 323
+  },
+  {
+    "input_value": "^Čaje a nápoje \\> Čaje \\> Bylinné čaje \\> Bylinné čaje směsi$",
+    "output_value": "Čaje a nápoje > Čaje > Bylinné čaje > Bylinné čaje zmesi",
+    "position": 324
+  },
+  {
+    "input_value": "^Čaje a nápoje \\> Čaje \\> Bylinné čaje \\> Bylinné čaje směsi \\> Samahan$",
+    "output_value": "Čaje a nápoje > Čaje > Bylinné čaje > Bylinné čaje zmesi > Samahan",
+    "position": 325
+  },
+  {
+    "input_value": "^Čaje a nápoje \\> Čaje \\> Bylinné čaje \\> Bylinné čaje směsi \\> Těhotenské čaje$",
+    "output_value": "Čaje a nápoje > Čaje > Bylinné čaje > Bylinné čaje zmesi > Tehotenské čaje",
+    "position": 326
+  },
+  {
+    "input_value": "^Čaje a nápoje \\> Čaje \\> Bylinné čaje \\> Bylinné čaje směsi \\> Čaje pro kojící maminky$",
+    "output_value": "Čaje a nápoje > Čaje > Bylinné čaje > Bylinné čaje zmesi > Čaje pre dojčiace mamičky",
+    "position": 327
+  },
+  {
+    "input_value": "^Čaje a nápoje \\> Čaje \\> Darkové kolekce čajů$",
+    "output_value": "Čaje a nápoje > Čaje > Darčekové kolekcie čajov",
+    "position": 328
+  },
+  {
+    "input_value": "^Čaje a nápoje \\> Čaje \\> Dětské čaje$",
+    "output_value": "Čaje a nápoje > Čaje > Detské čaje",
+    "position": 329
+  },
+  {
+    "input_value": "^Čaje a nápoje \\> Čaje \\> Kurkumové čaje$",
+    "output_value": "Čaje a nápoje > Čaje > Kurkumové čaje",
+    "position": 330
+  },
+  {
+    "input_value": "^Čaje a nápoje \\> Čaje \\> Porcované čaje$",
+    "output_value": "Čaje a nápoje > Čaje > Porciované čaje",
+    "position": 331
+  },
+  {
+    "input_value": "^Čaje a nápoje \\> Čaje \\> Rooibos čaje$",
+    "output_value": "Čaje a nápoje > Čaje > Rooibos čaje",
+    "position": 332
+  },
+  {
+    "input_value": "^Čaje a nápoje \\> Čaje \\> Sonnentor čaje$",
+    "output_value": "Čaje a nápoje > Čaje > Sonnentor čaje",
+    "position": 333
+  },
+  {
+    "input_value": "^Čaje a nápoje \\> Čaje \\> Sypané čaje$",
+    "output_value": "Čaje a nápoje > Čaje > Sypané čaje",
+    "position": 334
+  },
+  {
+    "input_value": "^Čaje a nápoje \\> Čaje \\> Zelené čaje$",
+    "output_value": "Čaje a nápoje > Čaje > Zelené čaje",
+    "position": 335
+  },
+  {
+    "input_value": "^Čaje a nápoje \\> Čaje \\> Zázvorové čaje$",
+    "output_value": "Čaje a nápoje > Čaje > Zázvorové čaje",
+    "position": 336
+  },
+  {
+    "input_value": "^Čaje a nápoje \\> Čaje \\> Černé čaje$",
+    "output_value": "Čaje a nápoje > Čaje > Černé čaje",
+    "position": 337
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Konzervované potraviny \\> Rybí konzervy \\> Tuňák v akci \\> Tuňák v akci$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Konzervované potraviny > Rybacie konzervy > Tuniak v akcii > Tuniak v akcii",
+    "position": 338
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Těstoviny \\> Konjakové těstoviny$",
+    "output_value": "Zdravé potraviny > Varenie a pečenie > Cestoviny > Konjakové cestoviny",
+    "position": 339
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Schär v akci \\> Schär v akci$",
+    "output_value": "Bezlepkové potraviny > Schär v akcii > Schär v akcii",
+    "position": 340
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové sušené maso$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové sušené mäso",
+    "position": 341
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Hotová jídla$",
+    "output_value": "Zdravé potraviny > Hotové jedlá",
+    "position": 342
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové mouky a směsi \\> Bezlepkové mouky v akci \\> Bezlepkové mouky v akci$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové múky a zmesi > Bezlepkové múky v akcii > Bezlepkové múky v akcii",
+    "position": 343
+  }
+]
