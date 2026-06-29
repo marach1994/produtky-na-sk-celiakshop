@@ -14,3 +14,6 @@ jobs:
         with:
           python-version: "3.12"
       - run: python check_seasonal.py
+        env:
+          FREELO_USER: ${{ secrets.FREELO_USER }}
+          FREELO_TOKEN: ${{ secrets.FREELO_TOKEN }}

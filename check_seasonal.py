@@ -22,8 +22,8 @@ SOURCE_URL = (
 )
 
 FREELO_TASK_ID = 30581159
-FREELO_USER    = "adamkelbl0@gmail.com"
-FREELO_TOKEN   = "cbNu45IETQu4cvWLugBJ4S9dj41bfmjmtzMzo8qVU15"
+FREELO_USER    = os.environ.get("FREELO_USER", "adamkelbl0@gmail.com")
+FREELO_TOKEN   = os.environ.get("FREELO_TOKEN", "")
 
 SEASONAL_KEYWORDS = ["Vánoce", "Velikonoce", "Prázdniny"]
 
