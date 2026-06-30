@@ -9,6 +9,7 @@ Použití:
 """
 
 import csv
+import os
 import ssl
 import sys
 import urllib.request
