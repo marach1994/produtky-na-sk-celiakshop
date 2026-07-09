@@ -306,12 +306,12 @@
   },
   {
     "input_value": "^Bezlepkové potraviny \\> Bezlepkové mouky a směsi \\> Semínkové mouky \\> Dýňové mouky$",
-    "output_value": "Bezlepkové potraviny > Bezlepkové múky a zmesi > Semínkové múky > Tekvicové múky",
+    "output_value": "Bezlepkové potraviny > Bezlepkové múky a zmesi > Semienkové múky > Tekvicové múky",
     "position": 62
   },
   {
     "input_value": "^Bezlepkové potraviny \\> Bezlepkové mouky a směsi \\> Semínkové mouky \\> Lněné mouky$",
-    "output_value": "Bezlepkové potraviny > Bezlepkové múky a zmesi > Semínkové múky > Ľanové múky",
+    "output_value": "Bezlepkové potraviny > Bezlepkové múky a zmesi > Semienkové múky > Ľanové múky",
     "position": 63
   },
   {
@@ -1713,5 +1713,15 @@
     "input_value": "^Bezlepkové potraviny \\> Bezlepkové mouky a směsi \\> Bezlepkové mouky v akci \\> Bezlepkové mouky v akci$",
     "output_value": "Bezlepkové potraviny > Bezlepkové múky a zmesi > Bezlepkové múky v akcii > Bezlepkové múky v akcii",
     "position": 343
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové mouky a směsi \\> Semínkové mouky$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové múky a zmesi > Semienkové múky",
+    "position": 344
+  },
+  {
+    "input_value": "^Doplňky \\> Dietní cestovní kartičky$",
+    "output_value": "Doplnky do kuchyne a domácnosti > Diétne cestovné kartičky",
+    "position": 345
   }
 ]
