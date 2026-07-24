@@ -35,6 +35,7 @@ SK_EXPORT_URL = (
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 CATEGORY_MAPPING_FILE = os.path.join(SCRIPT_DIR, "category_mapping_rows.json")
 OUTPUT_FILE = os.path.join(SCRIPT_DIR, "celiakshop_sk.csv")
+BACKUP_FILE = os.path.join(SCRIPT_DIR, "zaloha_sk.xlsx")
 
 # Výstupní sloupce ve správném pořadí (dle importního formátu SK Shoptetu)
 OUTPUT_COLUMNS = [
@@ -180,6 +181,11 @@ def load_sk_codes() -> set:
     import openpyxl
     print("Stahuji SK produkty pro filtrování...", file=sys.stderr)
     data = fetch_url(SK_EXPORT_URL)
+
+    # Záloha SK exportu (přepisuje se při každém běhu)
+    with open(BACKUP_FILE, "wb") as f:
+        f.write(data)
+    print(f"Záloha SK exportu uložena: {BACKUP_FILE}", file=sys.stderr)
     # SK export je xlsx přejmenovaný na xls — openpyxl ho zvládne po uložení
     tmp = tempfile.NamedTemporaryFile(suffix=".xlsx", delete=False)
     try:
@@ -233,6 +239,42 @@ def main():
         print(f"\nProdukty z CZ feedu které NEJSOU na SK ({len(missing)} ks):", file=sys.stderr)
         for code, name in sorted(missing):
             print(f"  {code:<15} {name}", file=sys.stderr)
+
+    report_seasonal(content)
+    run_category_check()
+
+
+def report_seasonal(content: str):
+    """Vypíše, jestli CZ feed obsahuje produkty se sezónní kategorií."""
+    from check_seasonal import find_seasonal_products
+
+    hits = find_seasonal_products(content)
+    if hits:
+        print(f"\n⚠️  Sezónní kategorie v CZ feedu ({len(hits)} produktů):", file=sys.stderr)
+        for p in hits:
+            print(f"  {p['code']:<15} {p['name']} ({p['category']})", file=sys.stderr)
+    else:
+        print("\nSezónní kategorie: žádné nenalezeny.", file=sys.stderr)
+
+
+def run_category_check():
+    """Uloží snapshot SK kategorií a po potvrzení importu spustí kontrolu."""
+    import check_categories
+
+    print("\nUkládám snapshot kategorií...")
+    check_categories.cmd_snapshot()
+
+    print("\nProveď import produktů na SK eshopu.")
+    try:
+        answer = input("Spustit kontrolu kategorií? [Y/n]: ").strip()
+    except EOFError:
+        answer = "n"
+
+    if answer.lower() == "n":
+        print("Kontrola kategorií přeskočena.")
+        return
+
+    check_categories.cmd_check()
 
 
 if __name__ == "__main__":

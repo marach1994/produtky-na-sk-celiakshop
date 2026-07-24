@@ -4,21 +4,24 @@ Tento projekt transformuje produktový feed z CZ eshopu (celiakshop.cz) do form�
 
 ## Soubory
 
-- `transform.py` — hlavní transformační skript
+- `transform.py` — hlavní transformační skript (na konci nabídne kontrolu kategorií)
+- `check_categories.py` — snapshot/diff stromu SK kategorií (kontrola nových kategorií po importu)
 - `check_seasonal.py` — kontrola sezónních kategorií v CZ feedu, odesílá alert do Freelo
 - `category_mapping_rows.json` — 343 řádků mapování CZ kategorií → SK kategorie (načteno z Mergado projektu 339108)
 - `spustit.command` — spouštěč pro macOS (dvojklik)
 - `spustit.bat` — spouštěč pro Windows (dvojklik)
 - `celiakshop_sk.csv` — výstup (generovaný, není ve verzování)
+- `snapshots/` — snapshoty SK kategorií (generované, nejsou ve verzování)
+- `zaloha_sk.xlsx` — záloha staženého SK exportu produktů, přepisuje se při každém běhu (generovaná, není ve verzování)
 - `check_seasonal.log` — log automatického spouštění (generovaný, není ve verzování)
 
 ## Závislosti
 
 ```bash
-pip install openpyxl
+pip install -r requirements.txt
 ```
 
-Potřebné pro čtení SK exportu (xlsx).
+`openpyxl` (čtení SK exportu xlsx), `requests` + `lxml` (kontrola kategorií), `colorama` (volitelné barvy).
 
 ## Spuštění
 
@@ -27,7 +30,13 @@ python3 transform.py              # stáhne feed automaticky z URL
 python3 transform.py vstup.csv    # zpracuje lokální soubor
 ```
 
-Výstup se zapíše jako `celiakshop_sk.csv` vedle skriptu.
+Průběh (stejný přes `spustit.command` / `spustit.bat`):
+
+1. stažení SK exportu (uloží se záloha `zaloha_sk.xlsx` vedle skriptu), transformace + zápis `celiakshop_sk.csv`,
+2. výpis produktů z CZ feedu, které nejsou na SK eshopu (stderr),
+3. výpis sezónních kategorií v CZ feedu (Vánoce/Velikonoce/Prázdniny), nebo hláška že žádné nejsou — používá `find_seasonal_products` z `check_seasonal.py`, bez Freelo alertu,
+4. automatické uložení snapshotu SK kategorií,
+5. výzva „Proveď import produktů na SK eshopu" + prompt `Spustit kontrolu kategorií? [Y/n]` — při potvrzení porovná aktuální kategorie se snapshotem a vypíše nové/smazané.
 
 ## Zdroj dat
 
@@ -72,6 +81,15 @@ code, pairCode, supplier, manufacturer, defaultCategory, categoryText,
 price, standardPrice, purchasePrice, actionPrice, actionFrom, actionUntil,
 negativeAmount, actionFlagActive, ..., custom2FlagActive,
 categoryText2–11
+```
+
+## Kontrola kategorií (check_categories.py)
+
+Sleduje strom kategorií SK eshopu (XML feed `https://www.celiakshop.sk/export/categories.xml?partnerId=3&patternId=-31&hash=...`, konstanta `FEED_URL`). Snapshoty se ukládají do `snapshots/` vedle skriptu (`latest.json` + časové zálohy). `transform.py` ho volá automaticky (snapshot před importem, check po potvrzení); lze spustit i samostatně:
+
+```bash
+python3 check_categories.py snapshot   # uloží aktuální stav kategorií
+python3 check_categories.py check      # porovná feed s posledním snapshotem (--verbose vypíše vše)
 ```
 
 ## Kontrola sezónních kategorií (check_seasonal.py)

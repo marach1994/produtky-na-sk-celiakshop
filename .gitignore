@@ -2,3 +2,5 @@
 celiakshop_sk.csv
 __pycache__/
 *.pyc
+snapshots/
+zaloha_sk.xlsx
