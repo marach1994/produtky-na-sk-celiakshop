@@ -2,12 +2,14 @@
 
 Tento projekt transformuje produktový feed z CZ eshopu (celiakshop.cz) do formátu pro import na SK eshop (Shoptet).
 
+Transformace dřív běžela v Mergadu (projekt 339108 „CeliakShop - ceny do EUR"). **Mergado se už nepoužívá** — pravidla i mapování kategorií se udržují výhradně tady v repozitáři a nikam se nesynchronizují.
+
 ## Soubory
 
 - `transform.py` — hlavní transformační skript (na konci nabídne kontrolu kategorií)
 - `check_categories.py` — snapshot/diff stromu SK kategorií (kontrola nových kategorií po importu)
 - `check_seasonal.py` — kontrola sezónních kategorií v CZ feedu, odesílá alert do Freelo
-- `category_mapping_rows.json` — 343 řádků mapování CZ kategorií → SK kategorie (načteno z Mergado projektu 339108)
+- `category_mapping_rows.json` — 351 řádků mapování CZ kategorií → SK kategorie (zdroj pravdy, udržuje se ručně)
 - `spustit.command` — spouštěč pro macOS (dvojklik)
 - `spustit.bat` — spouštěč pro Windows (dvojklik)
 - `celiakshop_sk.csv` — výstup (generovaný, není ve verzování)
@@ -55,9 +57,9 @@ Skript pracuje se dvěma URL definovanými v `transform.py`:
 
 Skript stáhne SK export a sestaví sadu existujících kódů (`code`). Do výstupního CSV se zapíší **pouze produkty z CZ feedu, které mají odpovídající kód na SK eshopu**. Produkty bez shody se vypíší na stderr jako přehled chybějících položek.
 
-## Transformační pravidla (Mergado projekt 339108)
+## Transformační pravidla
 
-Pravidla jsou replikací Mergado projektu **CeliakShop - ceny do EUR** (ID 339108, eshop Mamtex.cz).
+Pravidla jsou implementovaná v `transform.py`. Číslování priorit je pozůstatek z původního Mergado projektu, pořadí kroků ale platí i tady.
 
 | Priorita | Název | Pole | Transformace |
 |---|---|---|---|
@@ -68,7 +70,7 @@ Pravidla jsou replikací Mergado projektu **CeliakShop - ceny do EUR** (ID 33910
 | 5 | Vlastnosti | `filteringProperty:Vlastnosti` | Překlad CZ → SK (19 hodnot) |
 | 6 | Bez Lepku příznak | `bez-lepkuFlagActive` | Přejmenování na `custom2FlagActive` |
 | 7–18 | >> kategorie | `defaultCategory`, `categoryText1–11` | Regex: odstraní `^>> `, nahradí `>>` za `>` |
-| 19–30 | Párování kategorie | `defaultCategory`, `categoryText1–11` | 343 řádků mapování CZ → SK |
+| 19–30 | Párování kategorie | `defaultCategory`, `categoryText1–11` | 351 řádků mapování CZ → SK |
 
 Zaokrouhlení cen: matematické (0,5 nahoru), oddělovač desetin: čárka.
 
@@ -110,4 +112,6 @@ Freelo API: basic auth (`adamkelbl0@gmail.com` + API token), endpoint `POST /v1/
 
 ## Nezmapované kategorie
 
-Kategorie bez záznamu v `category_mapping_rows.json` procházejí beze změny (stejné chování jako Mergado). Při přejmenování kategorií v CZ eshopu je nutné aktualizovat mapovací soubor nebo Mergado pravidla.
+Kategorie bez záznamu v `category_mapping_rows.json` procházejí beze změny. Při přejmenování kategorií v CZ eshopu nebo při vzniku nové SK kategorie je nutné mapovací soubor doplnit ručně.
+
+Kontrola: porovnat cíle všech mapovacích pravidel (`output_value`) se stromem kategorií z `FEED_URL` v `check_categories.py`. Cíl, který ve stromu neexistuje, znamená, že se produkty nezařadí správně.
