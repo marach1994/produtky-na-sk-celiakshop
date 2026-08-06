@@ -21,7 +21,7 @@
   },
   {
     "input_value": "^Bezlepkové potraviny \\> Bezlepková hotová jídla$",
-    "output_value": "Bezlepkové potraviny >> Bezlepkové hotové jedlá",
+    "output_value": "Bezlepkové potraviny > Bezlepkové hotové jedlá",
     "position": 5
   },
   {
@@ -1723,5 +1723,35 @@
     "input_value": "^Doplňky \\> Dietní cestovní kartičky$",
     "output_value": "Doplnky do kuchyne a domácnosti > Diétne cestovné kartičky",
     "position": 345
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Strouhanky$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové múky a zmesi > Strúhanky",
+    "position": 346
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Strouhanky \\> Kukuřičné strouhanky$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové múky a zmesi > Strúhanky > Kukuričné strúhanky",
+    "position": 347
+  },
+  {
+    "input_value": "^Zdravé potraviny \\> Vaření a pečení \\> Strouhanky \\> Panko strouhanky$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové múky a zmesi > Strúhanky > Panko strúhanky",
+    "position": 348
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Bezlepkové sladkosti \\> Bezlepkové kornouty$",
+    "output_value": "Bezlepkové potraviny > Bezlepkové sladkosti > Bezlepkové kornútky",
+    "position": 349
+  },
+  {
+    "input_value": "^Potraviny podle diety \\> Potraviny bez cukru pro diabetiky \\> Pečivo bez cukru$",
+    "output_value": "Potraviny podľa diéty > Potraviny pre diabetikov > Pečivo bez cukru",
+    "position": 350
+  },
+  {
+    "input_value": "^Zachraň jídlo$",
+    "output_value": "Zachráň jedlo",
+    "position": 351
   }
 ]
