@@ -94,6 +94,12 @@ python3 check_categories.py snapshot   # uloží aktuální stav kategorií
 python3 check_categories.py check      # porovná feed s posledním snapshotem (--verbose vypíše vše)
 ```
 
+CZ strom kategorií (CSV, středníkový oddělovač, UTF-8 BOM) — v kódu se zatím nepoužívá, slouží k ručnímu porovnání CZ ↔ SK:
+```
+https://www.celiakshop.cz/export/categories.csv?partnerId=3&patternId=-31&hash=...
+```
+Sloupce: `id;parentId;parentUrl;expandInMenu;visible;priority;access;title;linkText;url;…` (cestu kategorie sestavit přes `parentId`, kořen má `parentId=1`). Plný hash není ve verzování (repo je veřejné).
+
 ## Kontrola sezónních kategorií (check_seasonal.py)
 
 Skript stáhne CZ feed a hledá produkty, kde `defaultCategory` obsahuje klíčová slova `Vánoce`, `Velikonoce` nebo `Prázdniny`. Pokud takové produkty nalezne, odešle alert jako komentář do Freelo úkolu [Sezónní kategorie](https://app.freelo.io/task/30581159). Pokud nic nenalezne, tiše skončí.

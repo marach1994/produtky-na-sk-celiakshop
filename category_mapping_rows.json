@@ -51,7 +51,7 @@
   },
   {
     "input_value": "^Bezlepkové potraviny \\> Bezlepkové kaše a vločky \\> Bezlepkové kaše \\> Jáhlová kaše$",
-    "output_value": "Bezlepkové potraviny > Bezlepkové kaše a vločky > Bezlepkové kaše > Jáhlová kaše",
+    "output_value": "Bezlepkové potraviny > Bezlepkové kaše a vločky > Bezlepkové kaše > Pšeno kaša",
     "position": 11
   },
   {
@@ -91,7 +91,7 @@
   },
   {
     "input_value": "^Bezlepkové potraviny \\> Bezlepkové kaše a vločky \\> Bezlepkové vločky \\> Bezlepkové ovesné vločky$",
-    "output_value": "Bezlepkové potraviny > Bezlepkové kaše a vločky > Bezlepkové vločky > Bezlepkové ovesné vločky",
+    "output_value": "Bezlepkové potraviny > Bezlepkové kaše a vločky > Bezlepkové vločky > Bezlepkové ovsené vločky",
     "position": 19
   },
   {
@@ -1386,7 +1386,7 @@
   },
   {
     "input_value": "^Zdravé potraviny \\> Zdravé mlsání \\> Slané mlsání a chipsy \\> Chipsy$",
-    "output_value": "Zdravé potraviny > Zdravé maškrtenie > Slané maškrtenie a chipsy",
+    "output_value": "Zdravé potraviny > Zdravé maškrtenie > Slané maškrtenie a chipsy > Chipsy",
     "position": 279
   },
   {
@@ -1676,7 +1676,7 @@
   },
   {
     "input_value": "^Čaje a nápoje \\> Čaje \\> Černé čaje$",
-    "output_value": "Čaje a nápoje > Čaje > Černé čaje",
+    "output_value": "Čaje a nápoje > Čaje > Čierne čaje",
     "position": 337
   },
   {
