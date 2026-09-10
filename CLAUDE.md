@@ -9,7 +9,7 @@ Transformace dřív běžela v Mergadu (projekt 339108 „CeliakShop - ceny do E
 - `transform.py` — hlavní transformační skript (na konci nabídne kontrolu kategorií)
 - `check_categories.py` — snapshot/diff stromu SK kategorií (kontrola nových kategorií po importu)
 - `check_seasonal.py` — kontrola sezónních kategorií v CZ feedu, odesílá alert do Freelo
-- `category_mapping_rows.json` — 351 řádků mapování CZ kategorií → SK kategorie (zdroj pravdy, udržuje se ručně)
+- `category_mapping_rows.json` — 352 řádků mapování CZ kategorií → SK kategorie (zdroj pravdy, udržuje se ručně)
 - `spustit.command` — spouštěč pro macOS (dvojklik)
 - `spustit.bat` — spouštěč pro Windows (dvojklik)
 - `celiakshop_sk.csv` — výstup (generovaný, není ve verzování)
@@ -70,7 +70,7 @@ Pravidla jsou implementovaná v `transform.py`. Číslování priorit je pozůst
 | 5 | Vlastnosti | `filteringProperty:Vlastnosti` | Překlad CZ → SK (19 hodnot) |
 | 6 | Bez Lepku příznak | `bez-lepkuFlagActive` | Přejmenování na `custom2FlagActive` |
 | 7–18 | >> kategorie | `defaultCategory`, `categoryText1–11` | Regex: odstraní `^>> `, nahradí `>>` za `>` |
-| 19–30 | Párování kategorie | `defaultCategory`, `categoryText1–11` | 351 řádků mapování CZ → SK |
+| 19–30 | Párování kategorie | `defaultCategory`, `categoryText1–11` | 352 řádků mapování CZ → SK |
 
 Zaokrouhlení cen: matematické (0,5 nahoru), oddělovač desetin: čárka.
 

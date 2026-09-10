@@ -505,11 +505,6 @@
     "position": 101
   },
   {
-    "input_value": "^Doplňky \\> Bezlepkové cestovní kartičky$",
-    "output_value": "Doplnky do kuchyne a domácnosti > Bezlepkové cestovné kartičky",
-    "position": 102
-  },
-  {
     "input_value": "^Doplňky \\> Chňapky$",
     "output_value": "Doplnky do kuchyne a domácnosti > Chňapky",
     "position": 103
@@ -1753,5 +1748,15 @@
     "input_value": "^Zachraň jídlo$",
     "output_value": "Zachráň jedlo",
     "position": 351
+  },
+  {
+    "input_value": "^Bezlepkové potraviny \\> Ostatní bezlepkové produkty \\> Bezlepkový cukr$",
+    "output_value": "Bezlepkové potraviny > Ostatné bezlepkové produkty > Bezlepkový cukor",
+    "position": 352
+  },
+  {
+    "input_value": "^Potraviny podle diety \\> Potraviny bez palmového oleje$",
+    "output_value": "Potraviny podľa diéty > Potraviny bez palmového oleja",
+    "position": 353
   }
 ]
